@@ -1,0 +1,25 @@
+@RELATION sprint
+
+@ATTRIBUTE issue_count NUMERIC
+@ATTRIBUTE story_point NUMERIC
+@ATTRIBUTE avg_desc_length NUMERIC
+@ATTRIBUTE sprint_success {true, false}
+
+@DATA
+8,81,43,false
+9,90,53,false
+7,91,43,false
+9,92,53,false
+7,93,43,false
+6,96,53,false
+4,93,43,false
+11,96,53,false
+
+4,81,23,true
+3,83,63,true
+2,82,83,true
+8,91,13,true
+4,101,23,true
+3,91,63,true
+2,81,83,true
+8,95,13,true
